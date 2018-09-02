@@ -27,8 +27,8 @@
     <description>Cordova Echo Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,echo</keywords>
-    <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git</repo>
-    <issue>https://issues.apache.org/jira/browse/CB/component/12320648</issue>
+    <repo>https://github.com/ypzhuang/cordova-plugin-echo.git</repo>
+    <issue>https://github.com/ypzhuang/cordova-plugin-echo/issues</issue>
 
     <js-module src="www/echo.js" name="echo">
         <clobbers target="echo" />

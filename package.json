@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-helloecho",
+  "version": "1.0.1",
+  "description": "Cordova Echo Plugin",
+  "cordova": {
+    "id": "cordova-plugin-echo",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypzhuang/cordova-plugin-echo.git"
+  },
+  "keywords": [
+    "cordova",
+    "echo",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "John Zhuang",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/ypzhuang/cordova-plugin-echo/issues"
+  },
+  "homepage": "https://github.com/ypzhuang/cordova-plugin-echo#readme"
+}

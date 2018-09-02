@@ -29,17 +29,16 @@
     NSString* echo = [command.arguments objectAtIndex:0];
 
     if (echo != nil && [echo length] > 0) {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:[self echo:echo]];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:[self echoDictionary:echo]];
     } else {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:[self echo:@"Expected one non-empty string argument."]];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:[self echoDictionary:@"Expected one non-empty string argument."]];
     }
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
-- (NSDictionary*)echo:(NSString *)str
+- (NSDictionary*)echoDictionary:(NSString *)str
 {
-    
     return @{
              @"msg": str            
              };

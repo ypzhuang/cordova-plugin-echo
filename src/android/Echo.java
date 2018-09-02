@@ -68,8 +68,8 @@ public class Echo extends CordovaPlugin {
                 r.put("msg",message);
                 callbackContext.success(r);
             } else {
-                r.put("msg","Expected one non-empty string argument.")
-                 callbackContext.error(r);
+                r.put("msg","Expected one non-empty string argument.");
+                callbackContext.error(r);
             }
             return true;            
         } else {
