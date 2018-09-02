@@ -1,9 +1,9 @@
 {
   "name": "cordova-plugin-helloecho",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Cordova Echo Plugin",
   "cordova": {
-    "id": "cordova-plugin-echo",
+    "id": "cordova-plugin-helloecho",
     "platforms": [
       "android",
       "ios"

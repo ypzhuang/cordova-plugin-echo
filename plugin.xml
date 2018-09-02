@@ -21,8 +21,8 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-echo"
-    version="1.0.0">
+    id="cordova-plugin-helloecho"
+    version="1.0.3">
     <name>Echo</name>
     <description>Cordova Echo Plugin</description>
     <license>Apache 2.0</license>
@@ -30,8 +30,8 @@
     <repo>https://github.com/ypzhuang/cordova-plugin-echo.git</repo>
     <issue>https://github.com/ypzhuang/cordova-plugin-echo/issues</issue>
 
-    <js-module src="www/echo.js" name="echo">
-        <clobbers target="echo" />
+    <js-module src="www/echo.js" name="Echo">
+        <clobbers target="Echo" />
     </js-module>
 
 
